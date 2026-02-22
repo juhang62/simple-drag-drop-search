@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Options</title>
+    <link href="options.css" rel="stylesheet">
+    <script src="options.js"></script>
+</head>
+<body>
+	<div id="maincont">
+		<div style="background:aquamarine">
+			<select id="shiftmodeselect"> 
+				<option value="drop">Drop</option>                    
+				<option value="shift">Drop + Shift Key</option>
+			</select>
+			<button type="button" id="importbtn">Import</button>
+			<button type="button" id="exportbtn">Export</button>
+			<button type="button" id="getsyncbtn">Sync</button>
+		</div>
+		<div class="subcont" id="sub0"></div>
+		<div class="subcont" id="sub1"></div>
+		<div class="subcont" id="sub2"></div>
+		<div class="subcont" id="sub3"></div>
+		<div class="subcont" id="centercont"></div>
+		<div class="subcont" id="sub4"></div>
+		<div class="subcont" id="sub5"></div>
+		<div class="subcont" id="sub6"></div>
+		<div class="subcont" id="sub7"></div>
+	</div>
+	<div style="float:left;padding:35px 0 0 15px">
+		<div style="text-align: center;">
+			<label style="font-size:14px;font-weight:bold">Detection Start</label><br>
+			<label>(Arrow Mode)</label><br>
+			<input type="range" min="10" max="200" value="70" id="detectval"><br>
+			<label id="detectvallbl">70</label>pixels
+		</div>
+		<div style="text-align: center;padding-top:35px;padding-bottom:35px">
+			<label style="font-size:14px;font-weight:bold">Open New Tab</label><br>
+			<select id="tabposselect"> 
+				<option value="end">At the end</option>                    
+				<option value="after">After current tab</option>
+			</select>
+			<br><br>
+			<select id="forebacktabselect"> 
+				<option value="fore">Foreground</option>                    
+				<option value="back">Background</option>
+			</select>
+			<div style="padding-top:55px">
+				<label style="font-size:14px;font-weight:bold">Mode</label><br>
+				<select id="modeselect"> 
+					<option value="arrow">Arrow</option>                    
+					<option value="drop">Tile</option>
+					<option value="favicon">Favicon</option>
+				</select><br>
+				<label style="color:#aaa">
+				*Favicon mode<br>
+				R-Click = Background
+				</label>
+			</div>
+		</div>
+	</div>
+	
+	<div style="float:left;padding:35px 0 0 150px">
+		<div>
+        	<div>
+        		<div style="text-align: center;">
+                    <div>Exceptions<img src="add.png" id="addbutton2"></div>
+                    <div id="exceptpopupllist"></div>
+        		</div>
+        	</div>	
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    <input type="file" id="hiddenfilebutton" style="display:none">
+</body>
+</html>

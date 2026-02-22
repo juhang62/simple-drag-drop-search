@@ -1,0 +1,151 @@
+body{
+    font-family:arial, sans-serif;
+    font-size: 13px;
+    color:#333;
+    background-color:#fff;
+}
+#maincont{
+	width: 900px;
+	height: 600px;
+	float:left;
+}
+.subcont{
+	text-align: center;
+	width: 298px;
+	height:200px;
+	float: left;
+	background: #d5e7ff;
+	border: 1px solid #fff;
+}
+.subinner{
+	padding-top: 28px;
+}
+#centercont{
+	background-image: url("center.png");
+	background-color: #ffffff;
+}
+.selectclass{
+	width: 228px;
+    font-family:arial, sans-serif;
+    font-size: 13px;
+    padding: 1px 0;
+}
+.textboxcalss{
+	width: 220px;
+    font-family:arial, sans-serif;
+    font-size: 13px;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+#detectval{
+	width: 200px;
+}
+#tabposselect{
+	width: 180px;
+    font-family:arial, sans-serif;
+    font-size: 13px;
+}
+#forebacktabselect{
+	width: 180px;
+    font-family:arial, sans-serif;
+    font-size: 13px;
+    visibility: hidden;
+}
+#modeselect{
+	width: 180px;
+    font-family:arial, sans-serif;
+    font-size: 13px;
+}
+
+#openurllist{
+    height: 275px;
+    width: 600px;
+    overflow-y: auto;
+    border: #ccc solid 1px;
+}
+.oinputcontclass{
+    padding: 7px 3px;
+    border-bottom: #eee 1px solid;
+    text-align: center;
+    background: #f5f5f5;
+}
+.openurlitemclass{
+    width: 260px;
+    height: 23px;
+    padding: 0px 1px;
+    outline: none;
+    border-radius: 3px;
+    color: #000;
+    background: #fff;
+    border: #aaa 1px solid;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    margin-right: 5px;
+}
+.oselectclass{
+    width: 145px;
+    height: 23px;
+    padding: 0px 1px;
+    outline: none;
+    border-radius: 3px;
+    color: #000;
+    background: #fff;
+    border: #aaa 1px solid;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+.actselclass{
+    width: 120px;
+    height: 23px;
+    padding: 0px 1px;
+    outline: none;
+    border-radius: 3px;
+    color: #000;
+    background: #fff;
+    border: #aaa 1px solid;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    margin-left: 5px;
+}
+input[type=text]:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 248, 1);
+    border: 1px solid rgba(81, 203, 248, 1);
+}
+input[type=text] {
+    transition: all 0.30s ease-in-out;
+    outline: none;
+}
+#addbutton{
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+#addbutton2{
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+#exceptpopupllist{
+    height: 230px;
+    width: 360px;
+    overflow-y: auto;
+    border: #ccc solid 1px;
+    margin: 0 auto;
+}
+#exceptlistcontainer{
+    visibility: hidden;
+}
+.closeimgclass{
+    vertical-align: middle;
+    margin-right: 7px;
+    padding: 2px;
+    border-radius: 15px;
+}
+.closeimgclass:hover{
+    background: orange;
+}
+.keysortstrclass{
+  padding: 2px 12px;
+  color: #aaa;
+}
