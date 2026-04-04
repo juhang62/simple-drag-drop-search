@@ -29,6 +29,9 @@ Select text (or double-click a word) and a compact popup of favicon buttons appe
 
 ## Installation
 
+### Chrome Web Store
+Install directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/iopekmgngbedhppdhffnkhhndabdlacm).
+
 ### From source
 1. Clone this repository
 2. Open `chrome://extensions` in Chrome
@@ -41,7 +44,7 @@ Select text (or double-click a word) and a compact popup of favicon buttons appe
 |---|---|
 | `tabs` | Open search results in new tabs |
 | `storage` | Save settings and preferences |
-| `clipboardWrite` / `clipboardRead` | Copy selected text to clipboard |
+| `clipboardWrite` | Copy selected text to clipboard |
 | `downloads` | Save selected text to a .txt file |
 | `tts` | Text-to-Speech for selected text |
 | `offscreen` | Clipboard operations in Manifest V3 |
